@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>EmojiDance Choreo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>💃 EmojiDance</h1>
+            <p>AI Choreography Generator</p>
+        </header>
+
+        <main>
+            <div id="dance-stage" class="stage">
+                <div id="dancer" class="dancer">🕺</div>
+                <div id="instruction-text" class="instruction">Ready to groove?</div>
+            </div>
+
+            <div class="controls">
+                <div class="routine-display">
+                    <div id="routine-track" class="routine-track"></div>
+                </div>
+                
+                <div class="button-group">
+                    <button id="generate-btn" class="primary-btn">✨ Generate New Dance</button>
+                    <button id="play-btn" class="secondary-btn">▶️ Play Routine</button>
+                </div>
+            </div>
+        </main>
+
+        <div class="footer">
+            <p>Save your favorite moves to local storage!</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

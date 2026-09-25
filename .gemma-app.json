@@ -1,0 +1,7 @@
+{
+  "name": "EmojiDance-Choreo",
+  "description": "An AI-inspired dance choreographer that generates and animates emoji-based dance routines.",
+  "model": "google/gemma-4-31b-it",
+  "prompt": "A tiktok dance choreneographer creator uses emojis to show new dances, i want the emojis to be antimated and demostrate the dance routine the ai comes up with, the emojios shows how to dance",
+  "generatedAt": "2026-09-25T08:20:43.374Z"
+}
